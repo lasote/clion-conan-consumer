@@ -12,10 +12,10 @@ Build the project with CLion
 
 - Install the project dependencies:
 
-    - Go to ``cmake-build-debug`` folder and run:
+    - Run:
 
       ```
-          conan install ../ -s build_type=Debug
+          conan install . -s build_type=Debug --install-path=cmake-build-debug
    
       ```
 
